@@ -224,7 +224,7 @@ if (window.matchMedia("(min-width: 992px)").matches) {
     {
       // Un objet vide car nous n'animons rien directement avec cette timeline
       scrollTrigger: {
-        trigger: ".section-web_features", // La classe de votre section
+        trigger: ".section_home-methodo", // La classe de votre section
         start: "top center", // Commence lorsque le haut de la section atteint le centre de la fenêtre de visualisation
         onEnter: () => animateFeature(features[0], 0, true), // Déclenchez l'animation pour le premier élément
       },
