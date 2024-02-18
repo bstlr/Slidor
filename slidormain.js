@@ -70,7 +70,7 @@ function animateFeature(feature, index, restart = false) {
         display: "none",
         autoAlpha: 0,
       });
-      gsap.set(".web_feature-progress", {
+      gsap.set(".web_feature_progress", {
         display: "none",
         width: "0",
         opacity: 0,
