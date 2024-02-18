@@ -1,5 +1,5 @@
 //swiper project
-const projectSlider = new Swiper(".swiper.is-project", {
+const projectlistSlider = new Swiper(".swiper.is-project", {
   // Parameters
   loop: false,
   slidesPerView: "1.5",
@@ -35,7 +35,7 @@ const projectSlider = new Swiper(".swiper.is-project", {
 });
 
 //swiper inhouse
-const projectSlider = new Swiper(".swiper.is-productions", {
+const projectsSlider = new Swiper(".swiper.is-productions", {
   // Parameters
   loop: false,
   slidesPerView: "auto",
