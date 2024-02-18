@@ -1,8 +1,8 @@
-//swiper inhouse
-const inhouseSlider = new Swiper(".swiper.is-project", {
+//swiper project
+const projectSlider = new Swiper(".swiper.is-project", {
   // Parameters
   loop: false,
-  slidesPerView: "3.5",
+  slidesPerView: "1.5",
   allowTouchMove: true,
   spaceBetween: 16,
 
@@ -13,20 +13,23 @@ const inhouseSlider = new Swiper(".swiper.is-project", {
   },
   // Navigation arrows
   navigation: {
-    nextEl: ".swiper-btn-next.is-inhouse",
-    prevEl: ".swiper-btn-prev.is-inhouse",
+    nextEl: ".swiper-btn.next.is-project",
+    prevEl: ".swiper-btn.prev.is-project",
   },
   // Responsive breakpoints
   breakpoints: {
     // when window width is >= 720px
     540: {
-      slidesPerView: 1,
+      slidesPerView: 1.5,
     },
     720: {
       slidesPerView: 2.5,
     },
     1280: {
       slidesPerView: 3.5,
+    },
+    2140: {
+      slidesPerView: 4.5,
     },
   },
 });
