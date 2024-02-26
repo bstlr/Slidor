@@ -1,4 +1,4 @@
-//SECTION AUTOMATIQUE DE METHODO
+//SECTION AUTOMATIQUE DE METHODO animée
 // Fonction pour animer les éléments, changer l'image correspondante et gérer les icônes, executee >992px
 function animateFeature(feature, index, restart = false) {
   // Arrêtez toutes les animations en cours si restart est vrai
