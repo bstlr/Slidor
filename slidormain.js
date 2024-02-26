@@ -1,3 +1,23 @@
+//nav menu animation pour afficher les images de chaque service
+$(document).ready(function() {
+    // Lorsque la souris entre dans un .div-service
+    $('.div-service').mouseenter(function() {
+        // Récupère la classe de catégorie correspondante (ex: .sales, .event)
+        var categoryClass = $(this).attr('class').split(' ')[1];
+        // Assigne un z-index de 2 à l'image correspondante
+        $('.service-dd_img_pic.' + categoryClass).css('z-index', 2);
+    });
+
+    // Lorsque la souris sort d'un .div-service
+    $('.div-service').mouseleave(function() {
+        // Récupère la classe de catégorie correspondante
+        var categoryClass = $(this).attr('class').split(' ')[1];
+        // Réinitialise le z-index de l'image correspondante
+        $('.service-dd_img_pic.' + categoryClass).css('z-index', 0);
+    });
+});
+
+
 //swiper project
 const projectlistSlider = new Swiper(".swiper.is-project", {
   // Parameters
