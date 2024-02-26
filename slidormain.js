@@ -22,7 +22,7 @@ $(document).ready(function() {
 const projectlistSlider = new Swiper(".swiper.is-project", {
   // Parameters
   loop: false,
-  slidesPerView: "1.5",
+  slidesPerView: "1.25",
   allowTouchMove: true,
   spaceBetween: 16,
 
@@ -40,7 +40,7 @@ const projectlistSlider = new Swiper(".swiper.is-project", {
   breakpoints: {
     // when window width is >= 720px
     540: {
-      slidesPerView: 1.5,
+      slidesPerView: 1.25,
     },
     720: {
       slidesPerView: 2.5,
@@ -58,7 +58,7 @@ const projectlistSlider = new Swiper(".swiper.is-project", {
 const productionSlider = new Swiper(".swiper.is-productions", {
  // Parameters
   loop: false,
-  slidesPerView: "1.5",
+  slidesPerView: "1.25",
   allowTouchMove: true,
   spaceBetween: 16,
 
@@ -76,7 +76,7 @@ const productionSlider = new Swiper(".swiper.is-productions", {
   breakpoints: {
     // when window width is >= 720px
     540: {
-      slidesPerView: 1.5,
+      slidesPerView: 1.25,
     },
     720: {
       slidesPerView: 2.5,
