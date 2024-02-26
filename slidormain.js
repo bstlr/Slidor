@@ -58,12 +58,12 @@ const projectlistSlider = new Swiper(".swiper.is-project", {
 const productionSlider = new Swiper(".swiper.is-productions", {
  // Parameters
   loop: false,
-  slidesPerView: "1.25",
+  slidesPerView: "1.15",
   allowTouchMove: true,
   spaceBetween: 16,
 
   freeMode: {
-    enabled: true,
+    enabled: false,
     sticky: false,
     momentumBounce: true,
   },
@@ -76,7 +76,7 @@ const productionSlider = new Swiper(".swiper.is-productions", {
   breakpoints: {
     // when window width is >= 720px
     540: {
-      slidesPerView: 1.25,
+      slidesPerView: 1.15,
     },
     720: {
       slidesPerView: 2.5,
