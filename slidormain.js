@@ -56,9 +56,9 @@ const projectlistSlider = new Swiper(".swiper.is-project", {
 
 //swiper inhouse
 const projectsSlider = new Swiper(".swiper.is-productions", {
-  // Parameters
+ // Parameters
   loop: false,
-  slidesPerView: "auto",
+  slidesPerView: "1.5",
   allowTouchMove: true,
   spaceBetween: 16,
 
@@ -67,14 +67,26 @@ const projectsSlider = new Swiper(".swiper.is-productions", {
     sticky: false,
     momentumBounce: true,
   },
-
-  mousewheel: {
-    eventsTarget: ".main-wrapper.is-web-project",
-  },
   // Navigation arrows
   navigation: {
-    nextEl: ".swiper-btn-next.is-inhouse",
-    prevEl: ".swiper-btn-prev.is-inhouse",
+    nextEl: ".swiper-btn.next.is-project",
+    prevEl: ".swiper-btn.prev.is-project",
+  },
+  // Responsive breakpoints
+  breakpoints: {
+    // when window width is >= 720px
+    540: {
+      slidesPerView: 1.5,
+    },
+    720: {
+      slidesPerView: 2.5,
+    },
+    1280: {
+      slidesPerView: 3.5,
+    },
+    2140: {
+      slidesPerView: 4.5,
+    },
   },
 });
 
