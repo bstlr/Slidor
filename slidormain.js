@@ -18,7 +18,7 @@ $(document).ready(function() {
 });
 
 
-//swiper project
+//swiper derniers projets
 const projectlistSlider = new Swiper(".swiper.is-project", {
   // Parameters
   loop: false,
@@ -54,8 +54,8 @@ const projectlistSlider = new Swiper(".swiper.is-project", {
   },
 });
 
-//swiper inhouse
-const projectsSlider = new Swiper(".swiper.is-productions", {
+//swiper productions
+const productionSlider = new Swiper(".swiper.is-productions", {
  // Parameters
   loop: false,
   slidesPerView: "1.5",
