@@ -200,29 +200,7 @@ const inhouseSlider = new Swiper(".swiper.is-inhouse", {
   },
 });
 
-//swiper inhouse
-const projectSlider = new Swiper(".swiper.is-webproject", {
-  // Parameters
-  loop: false,
-  slidesPerView: "auto",
-  allowTouchMove: true,
-  spaceBetween: 16,
 
-  freeMode: {
-    enabled: true,
-    sticky: false,
-    momentumBounce: true,
-  },
-
-  mousewheel: {
-    eventsTarget: ".main-wrapper.is-web-project",
-  },
-  // Navigation arrows
-  navigation: {
-    nextEl: ".swiper-btn-next.is-inhouse",
-    prevEl: ".swiper-btn-prev.is-inhouse",
-  },
-});
 
 // Fonction pour animer les éléments, changer l'image correspondante et gérer les icônes, executee >992px
 function animateFeature(feature, index, restart = false) {
